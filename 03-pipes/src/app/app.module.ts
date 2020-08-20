@@ -8,6 +8,10 @@ import { CapitalizadoPipe} from './pipes/capitalizado.pipe';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +22,7 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
     BrowserModule
   ],
   providers: [
-    {provide:LOCALE_ID, useValue:"es"}
+    {provide: LOCALE_ID, useValue: 'en-CL' }
   ],
   bootstrap: [AppComponent]
 })

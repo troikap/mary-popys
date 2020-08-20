@@ -37,9 +37,14 @@
         <td> {{arreglo | slice:1:5}}</td>
       </tr>
       <tr>
+        <td>MIERDA </td>
+        <td> number '3.0-0'</td>
+        <td> {{234.232424 | number: '2.1-2'}}</td>
+      </tr>
+      <tr>
         <td>{{ PI }} </td>
         <td> number '3.0-0'</td>
-        <td> {{PI | number:'3.0-0'}}</td>
+        <td> {{PI | number: '3.0-0'}}</td>
       </tr>
       <tr>
         <td>{{ PI }} </td>
@@ -59,7 +64,7 @@
       <tr>
         <td>{{ salario }} </td>
         <td> currency </td>
-        <td> {{salario | currency}}</td>
+        <td> {{salario | currency: '$'}}</td>
       </tr>
       <tr>
         <td>{{ salario }} </td>
